@@ -1,0 +1,11 @@
+# Verify logging in without creating a user
+
+# commands to execute:
+login user1 user1
+quit
+*
+
+# expected output from those commands:
+Login failed
+Goodbye
+*

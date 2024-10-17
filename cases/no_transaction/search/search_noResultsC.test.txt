@@ -1,0 +1,11 @@
+# Verify that search results will return no flights
+
+# commands to execute:
+search "Seattle WA" "Seattle WA" 1 1 10
+quit
+*
+
+# expected output:
+No flights match your selection
+Goodbye
+*

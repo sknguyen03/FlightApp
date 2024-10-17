@@ -1,0 +1,13 @@
+# Verify creating duplicate users
+
+# commands to execute:
+create user1 user1 100
+create user1 user1 100
+quit
+*
+
+# expected output from those commands:
+Created user user1
+Failed to create user
+Goodbye
+*

@@ -1,0 +1,13 @@
+# Verify valid balances
+
+# commands to execute:
+create user1 user2 0
+create user2 user2 -1
+quit
+*
+
+# expected output from those commands:
+Created user user1
+Failed to create user
+Goodbye
+*
